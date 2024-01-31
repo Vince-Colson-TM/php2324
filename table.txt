@@ -1,0 +1,47 @@
+{{-- Table --}}
+<x-tmk.section>
+    <table class="text-center w-full border border-gray-300">
+        <colgroup>
+            <col>
+            <col>
+            <col>
+        </colgroup>
+        <thead>
+        <tr class="bg-gray-100 text-gray-700 [&>th]:p-2">
+            <th>Name</th>
+            <th>Birth Date</th>
+            <th>Nationality</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr
+                class="border-t border-gray-300 hover:bg-gray-50 cursor-pointer">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <div class="border border-gray-300 rounded-md overflow-hidden m-2 grid grid-cols-3 h-10">
+                        <button
+                            class="text-gray-400 hover:text-sky-100 hover:bg-sky-500 transition border-r border-gray-300">
+                            <x-phosphor-book-bookmark-duotone class="inline-block w-5 h-5"/>
+                        </button>
+                        <button
+                            class="text-gray-400 hover:text-sky-100 hover:bg-sky-500 transition border-r border-gray-300">
+                            <x-phosphor-pencil-line-duotone class="inline-block w-5 h-5"/>
+                        </button>
+                        <button
+                            class="text-gray-400 hover:text-red-100 hover:bg-red-500 transition">
+                            <x-phosphor-trash-duotone class="inline-block w-5 h-5"/>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" class="border-t border-gray-300 p-4 text-center text-gray-500">
+                    <div class="font-bold italic text-sky-800">No authors found</div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</x-tmk.section>

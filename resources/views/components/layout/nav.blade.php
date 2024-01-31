@@ -8,8 +8,8 @@
 
     {{-- right navigation --}}
     <div class="relative flex items-center space-x-2">
-        <x-nav-link href="#" :active="request()->routeIs('shop')">
-            Shows
+        <x-nav-link href="#">
+            Authors
         </x-nav-link>
     </div>
 </nav>

@@ -1,0 +1,16 @@
+{{-- Filter --}}
+<x-tmk.section class="mb-4 flex gap-2">
+    <div class="flex-1">
+        <x-input id="search" type="text" placeholder="Search by author name or nationality"
+                 class="w-full shadow-md placeholder-gray-300"/>
+    </div>
+    <x-tmk.form.switch id="showClassic"
+                       text-off="Modern"
+                       color-off="text-white bg-blue-600"
+                       text-on="Classic"
+                       color-on="text-white bg-lime-600"
+                       class="w-20 h-auto" />
+    <x-button>
+        New author
+    </x-button>
+</x-tmk.section>

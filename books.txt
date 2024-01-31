@@ -1,0 +1,61 @@
+[
+    // Books for Leo Tolstoy
+    [
+        'author_id' => 1,
+        'title' => 'War and Peace',
+        'published_date' => '1869-01-01',
+    ],
+    [
+        'author_id' => 1,
+        'title' => 'Anna Karenina',
+        'published_date' => '1877-01-01',
+    ],
+
+    // Books for Virginia Woolf
+    [
+        'author_id' => 2,
+        'title' => 'Mrs Dalloway',
+        'published_date' => '1925-01-01',
+    ],
+    [
+        'author_id' => 2,
+        'title' => 'To the Lighthouse',
+        'published_date' => '1927-01-01',
+    ],
+
+    // Books for George Orwell
+    [
+        'author_id' => 3,
+        'title' => '1984',
+        'published_date' => '1949-01-01',
+    ],
+    [
+        'author_id' => 3,
+        'title' => 'Animal Farm',
+        'published_date' => '1945-01-01',
+    ],
+
+    // Books for Gabriel García Márquez
+    [
+        'author_id' => 4,
+        'title' => 'One Hundred Years of Solitude',
+        'published_date' => '1967-01-01',
+    ],
+    [
+        'author_id' => 4,
+        'title' => 'Love in the Time of Cholera',
+        'published_date' => '1985-01-01',
+    ],
+
+    // Books for Chinua Achebe
+    [
+        'author_id' => 5,
+        'title' => 'Things Fall Apart',
+        'published_date' => '1958-01-01',
+    ],
+    [
+        'author_id' => 5,
+        'title' => 'No Longer at Ease',
+        'published_date' => '1960-01-01',
+    ],
+]
